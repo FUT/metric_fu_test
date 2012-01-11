@@ -23,7 +23,7 @@ class UselessModel < ActiveRecord::Base
     p one+one
     p one+one+one
   end
-  
+
   def ten_cycles
     10.times do
       some_method
@@ -52,11 +52,11 @@ class UselessModel < ActiveRecord::Base
     else
       p 'not five'
       four = 4
-      
+
       if four = 5
         four = 4
       end
-      
+
       if four > 0
         p -1
         if four > 1
@@ -78,11 +78,11 @@ class UselessModel < ActiveRecord::Base
     end
     p 8
   end
-  
+
   def try_to_understand_me
     one = 1
     zero = ""
-    fail = eval "#{one + zero.send(eval "#{one > zero.length ? 'length' : 'divide_by_zero'}.to_sym") < 1 ? 'fail' : 'fail'}"
+    fail = eval((one + zero.send(eval(one > zero.length ? 'length.to_sym' : 'divide_by_zero')) < 1) ? 'fail' : 'fail')
     if one == eval("1 if fail == eval('fail')")
       10.times do
         eval "p one"

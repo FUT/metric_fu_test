@@ -90,7 +90,7 @@
       <file leaf-file-name="useless_model.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/models/useless_model.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="4" selection-start="62" selection-end="62" vertical-scroll-proportion="0.14258555">
+            <state line="11" column="6" selection-start="240" selection-end="240" vertical-scroll-proportion="0.31368822">
               <folding />
             </state>
           </provider>
@@ -653,7 +653,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/useless_model.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="4" selection-start="62" selection-end="62" vertical-scroll-proportion="0.14258555">
+        <state line="11" column="6" selection-start="240" selection-end="240" vertical-scroll-proportion="0.31368822">
           <folding />
         </state>
       </provider>

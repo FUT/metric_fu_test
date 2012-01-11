@@ -23,4 +23,26 @@ class UselessModel < ActiveRecord::Base
     p one+one
     p one+one+one
   end
+  
+  def ten_cycles
+    10.times do
+      some_method
+      9.times do
+        same_method
+        8.times do
+
+          if true
+            p 'true'
+          end
+
+          if false
+            ten_cycles
+          end
+
+        end
+      end
+    end
+  end
+
+
 end

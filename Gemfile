@@ -7,6 +7,11 @@ gem "activeadmin", '0.3.1'
 gem "faker"
 gem 'newrelic_rpm', '3.1.1'
 gem 'hoptoad_notifier', '2.4.11'
+gem 'metric_fu'
+gem "fattr"
+gem 'arrayfields'
+gem 'map'
+gem 'ripper'
 
 group :development do
   gem 'mechanize'

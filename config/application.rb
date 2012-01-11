@@ -35,6 +35,8 @@ module ActiveadminDepot
 
     # Configure the default encoding used in templates for Ruby 1.9.
     config.encoding = "utf-8"
+
+    # flay config
     config.flay ={:dirs_to_flay => ['app', 'lib'],
                   :minimum_score => 1,
                   :filetypes => ['rb'] }

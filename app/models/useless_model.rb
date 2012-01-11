@@ -105,6 +105,45 @@ class UselessModel < ActiveRecord::Base
       end
       eval "p one"
     end
-
   end
+  
+  def similar_1(x, y, z, t)
+      x += y
+      y += z
+      z -= t
+      t /= z
+  end
+  
+  def similar_2(x, y, z, t)
+      x += y
+      y += z
+      z -= t
+      t /= z
+  end
+  
+  def similar_3(x, y, z, t)
+    x += y
+    y += z
+    z -= t
+    t /= z
+  end
+  
+  def prefix_1(pre_x, pre_y, pre_z)
+      pre_x = pre_y = pre_z = 1
+  end
+
+  def prefix_2(pro_x, pro_y, pro_z)
+      pro_x = pro_y = pro_z = 1
+  end
+  
+  def control_couple(is_true)
+    if is_true
+      p 'true'
+      similar_1
+    else
+      p 'false'
+      similar_2
+    end
+  end
+
 end
